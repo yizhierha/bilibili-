@@ -26,7 +26,7 @@
             coin = content['data']['stat']['coin']
             share = content['data']['stat']['share']
             like = content['data']['stat']['like']
-### 3. 将视频信息存放到csv中
+### 3. 将视频信息存放到列表中，方便存放到csv文件中
        # 将信息存放到列表中
        bilibilis = list()
        values = {
